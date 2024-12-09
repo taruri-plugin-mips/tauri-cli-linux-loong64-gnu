@@ -1,0 +1,27 @@
+{
+  "name": "tauri-cli-linux-loong64-gnu",
+  "version": "1.6.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "loong64"
+  ],
+  "libc": [
+    "glibc"
+  ],
+  "main": "cli.linux-loong64-gnu.node",
+  "files": [
+    "cli.linux-loong64-gnu.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "release": "pnpm -r publish --access public"
+  }
+}
